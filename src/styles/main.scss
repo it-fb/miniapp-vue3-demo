@@ -1,0 +1,64 @@
+/* 颜色变量 */
+
+/* 行为相关颜色 */
+$primary: #007aff;
+$success: #4cd964;
+$warning: #f0ad4e;
+$error: #dd524d;
+$white: #ffffff;
+$dark: #333;
+$grey: #999;
+
+/* 文字尺寸 */
+$font-sm: 12px;
+$font-base: 14px;
+$font-lg: 16px;
+$font-xl: 18px;
+
+/* 水平间距 */
+$spacing-row-sm: 5px;
+$spacing-row-base: 10px;
+$spacing-row-lg: 15px;
+
+/* 垂直间距 */
+$spacing-col-sm: 4px;
+$spacing-col-base: 8px;
+$spacing-col-lg: 12px;
+
+/* 全局样式 */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: $error;
+}
+
+.w-full { width: 100%;}
+.w-screen { width: 100vw; }
+
+.h-full { height: 100%;}
+.h-screen { height: 100vh;}
+
+.text-center { text-align: center; }
+.text-bold { font-weight: bold; }
+
+.my-sm { margin-top: 2px; margin-bottom: 2px; }
+.my-md { margin-top: 4px; margin-bottom: 4px; }
+.my-lg { margin-top: 8px; margin-bottom: 8px; }
+.my-xl { margin-top: 16px; margin-bottom: 16px; }
+
+.bg-primary { background-color: $primary; }
+.bg-info { background-color: $grey; }
